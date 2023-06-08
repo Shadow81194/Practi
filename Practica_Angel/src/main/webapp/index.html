@@ -1,0 +1,303 @@
+<style>
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', cursive;*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: nome;
+	list-style: nome;
+}
+
+body {
+	font-family: Ariel, Helvetica, sans-serif;
+	background-color:  #161815;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	background: linear-gradient(
+	rgba(0, 0, 0, 0.6),
+	rgba(0, 0, 0, 0.6)),
+	url(imagen/lol.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+.menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+.logo{
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu .navdar ul li{
+	position: relative;
+	float: left;
+}
+
+.menu .navdar ul li a{
+	font-size: 18px;
+	padding: 20px;
+	color: #FFFFFF;
+	display: block;
+}
+
+.menu .navdar ul li a:hover {
+	color: #13975E;
+}
+
+#menu{
+	display: none;
+}
+
+.menu-icono{
+	width: 25px;
+}
+
+.menu label{
+	cursor: pointer;
+	display: none;
+}
+
+.header-content{
+	display: flex;
+	align-items: center;
+}
+
+.header-txt{
+	width: 80%;
+}
+
+.header-txt h1{
+	font-size: 120px;
+	line-height: 150px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	margin-bottom: 25px;
+}
+
+.header-txt p{
+	font-size: 18px;
+	color: #C4C4C4;
+	margin-bottom: 35px;
+	border-left: 1px solid #FFFFFF;
+	padding-left: 15px;
+}
+
+.btn-1{
+	display: inline-block;
+	padding: 12px 35px;
+	background-color: #13975E;
+	border-radius: 10px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	margin-top: 25px;
+}
+
+.btn-1:hover {
+	background-color: #19C67B;
+}
+
+.header-img {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+.header-img a{
+	margin-bottom: 60px;
+}
+
+.tours{
+	padding: 10px 0;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	font-size: 85px;
+	line-height: 95px;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+-----
+.footer-bg{
+	text-align: center;
+	padding: 100px 0;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.campo-1{
+	margin-bottom: 15px;
+}
+
+.campo{
+	margin: 5px;
+	padding: 20px 15px;
+	width: 250px;
+	background-color: #0E0E0E;
+	border: 1px solid #13975E;
+	outline: none;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+
+.footer-bg {
+	background: linear-gradient(
+	rgba(0, 0, 0, 0.8),
+	rgba(0, 0, 0, 0.8)),
+	url(imagen/seg_fon.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+textarea{
+	width: 520px !important;
+}
+
+.footer-txt{
+	text-align: center;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ANIME SHADOW S.A</title>
+<link rel="stylesheet" href="stye_index.css">
+<link rel="shortcut icon" href="imagen/angel.png" type="image/x-icon">
+</head>
+<body>
+<body>
+
+  <header class="header" >
+   <div class="menu container">
+<a href="" class="logo">GANDHI</a> 
+ 			<input type="checkbox" id="menu" />
+ <label for="menu">
+ 	<img src="imagen/" class="menu-icono" alt=""></img>
+ </label>
+ <nav class="navdar">
+ <ul>
+ 		<li><a href="login.jsp">Login  </a></li>
+   		<li><a href="productos.jsp">Ver los Productos </a></li>
+    	<li><a href="https://www.google.com/maps/d/edit?mid=12S18O4OPHWzk_oDoNQdvj0aTiV_GjLA&usp=sharing">Como Llegar </a></li>
+    	
+    	<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</p>
+     
+ </ul>
+ </nav>
+ </div>
+ 
+ <div class="header-content container">
+ 	<div class="header-txt"> 
+ 	<h1>Visita nuestra <br> Tienda Otaku</h1>
+ <p>
+		AnimePoint es la primera Concept Store orientada a los aficionados al anime de Lima Metropolitana, 
+		dirigido a jóvenes entre 15 a 29 años de los NSE A y B pertenecientes a las zonas 6 y 7 según APEIM. 
+		En esta tienda se ofrecerán productos anime originales tales como mangas, muñecos de colección y 
+		merchandising, así como servicios de entretenimiento de acuerdo con las necesidades analizadas del 
+		público objetivo brindando una propuesta de valor única en este mercado. Los animes han generado 
+		aficionados a lo largo del tiempo, dentro y fuera de Japón, su país de origen. En Lima los aficionados 
+		han ido en aumento; este aumento se expresa en una mayor cantidad del consumo de productos derivados del 
+		anime, así como de eventos y ferias.
+ </p>
+ 
+
+ 
+ <a href="https://tiendaotakuplace.com/" class="btn-1">Información</a>
+ </div>
+ <div class="header-img">
+ 		<a href="https://www.facebook.com/">
+ 		<img src="imagen/face.gif"  width="50" alt="20">
+ </a>
+ 		<a href="https://www.google.com/?hl=es">
+ 		<img src="imagen/goo.gif" width="50" alt="20">
+ </a>
+ 		<a href="https://www.instagram.com/">
+ 		<img src="imagen/intg.gif" width="50" alt="20">
+ </a>
+ 		<a href="https://twitter.com/">
+ 		<img src="imagen/twi.gif" width="50" alt="20">
+ </a>
+ 		</div>
+ 	</div>
+</header>
+
+
+      <footer>
+<div class="footer-bg">
+		<h2>Reserve su Cita en el Tienda Otaku</h2>
+	<form action="resp.jsp" method="post">
+<div class="campo-1">
+		<input class="campo" type="text" placeholder="Nombre: " name="Nombre: ">
+		<input class="campo" type="number" placeholder="Telefono: " maxlength="10">
+</div>
+
+<div class="campo-1">
+		<input class="campo" type="text" placeholder="Direccion: ">
+		<input class="campo" type="email" placeholder="Correo: ">
+</div>
+
+	<textarea class="campo" cols="30" rows="10" placeholder="Texto"> </textarea>
+		<input type="submit" class="btn-1" value="Enviar"></input>
+	</form>
+</div>
+
+<div class="footer-txt">
+	<p>
+		DIRECCION: TRINITARIA, ISLA, 01194, GUAYAQUIL TELEFONO: 0954452865
+	</p>
+</div>
+</footer>
+</body>
+</html>
